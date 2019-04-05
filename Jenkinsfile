@@ -1,3 +1,6 @@
 @Library('mpl') _
 
-MPLPipeline {}
+MPLPipeline {
+  modules.Deploy = null
+  modules.Test = null
+}
